@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
     <title><?=$config['title']?> | Main</title>
 </head>
 <body>
-    <div class="container mx-auto px-4">
+    <div class="container">
         <form action="core/FORM_SendData.php">
             <h2>Вариант №3</h2><br>
             <label for="name_and_surname">Фамилия и Имя</label>
