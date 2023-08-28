@@ -19,7 +19,7 @@
 
         <div class="form__answers-container">
             <div class="answers-container__answer">
-                <input type="checkbox" id="input_answ" name="input_answer"/>
+                <input type="checkbox" id="input_answer" name="input_answer"/>
                 <label for="input_answer">&lt;input&gt;</label>
             </div>
             <div class="answers-container__answer">
@@ -84,7 +84,24 @@
 
         <h3 for="">Какая из программ позволит генерировать код для 2FA авторизации в соц. сетях</h3><br>
 
-        
+        <div class="form__answers-container">
+            <div class="answers-container__answer">
+                <input type="checkbox" id="steam_guard_answer" name="steam_guard_answer"/>
+                <label for="steam_guard_answer">Steam Guard</label>
+            </div>
+            <div class="answers-container__answer">
+                <input type="checkbox" id="yandex_key" name="yandex_key"/>
+                <label for="yandex_key">Яндекс Ключ</label>
+            </div>
+            <div class="answers-container__answer">
+                <input type="checkbox" id="free_otp_answer" name="free_otp_answer"/>
+                <label for="free_otp_answer">FreeOTP</label>
+            </div>
+            <div class="answers-container__answer">
+                <input type="checkbox" id="last_pass_answer" name="last_pass_answer"/>
+                <label for="last_pass_answer">LastPass</label>
+            </div>
+        </div>
 
         <h3 for="">В социальной сети попадается пост с распродажей того что вам хочется, что вы сделает?</h3><br>
 
