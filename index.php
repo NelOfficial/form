@@ -11,6 +11,7 @@
     <title><?=$config['title']?> | Main</title>
 </head>
 <body>
+    test
     <div class="container">
         <form action="core/FORM_SendData.php">
             <h2>Вариант №3</h2><br>
