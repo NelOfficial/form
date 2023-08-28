@@ -82,7 +82,7 @@
             </div>
         </div>
 
-        <h3 for="">Какая из программ позволит генерировать код для 2FA авторизации в соц. сетях</h3><br>
+        <h3 for="">Какая из программ позволит генерировать код для 2FA авторизации в соц. сетях</h3>
 
         <div class="form__answers-container">
             <div class="answers-container__answer">
@@ -103,7 +103,7 @@
             </div>
         </div>
 
-        <h3 for="">В социальной сети попадается пост с распродажей того что вам хочется, что вы сделает?</h3><br>
+        <h3 for="">В социальной сети попадается пост с распродажей того что вам хочется, что вы сделаете?</h3>
 
         <div class="form__answers-container">
             <div class="answers-container__answer">
@@ -117,6 +117,13 @@
             <div class="answers-container__answer">
                 <input type="radio" name="fourth_question"/>
                 <label for="fourth_question">Почитаю отзывы на других ресурсах, и сравню цены</label>
+            </div>
+        </div>
+
+        <h3 for="">Ваш файл</h3>
+        <div class="form__answers-container">
+            <div class="answers-container__answer">
+                <input type="file" name="file_answer" id="file_answer">
             </div>
         </div>
     </form>
