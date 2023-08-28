@@ -6,7 +6,7 @@ $config = array(
             'host'     => 'localhost',
             'username' => 'root',
             'password' => 'root',
-            'dbname'   => 'task_db'
+            'dbname'   => 'form'
         )
 );
 
