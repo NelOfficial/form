@@ -130,6 +130,8 @@
                     <input type="file" name="file_answer" id="file_answer">
                 </div>
             </div>
+
+            <button type="button" class="btn btn-primary">Отправить</button>
         </form>
     </div>
 </body>

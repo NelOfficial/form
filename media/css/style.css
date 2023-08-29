@@ -36,3 +36,20 @@ input[type="text"]{
     margin: auto;
     max-width: 1140px;
 }
+
+.btn{
+    transition: 0.4s all;
+    padding: 10px 35px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary{
+    background: #702cf9 !important;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background: #5723be !important;
+}
