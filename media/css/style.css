@@ -53,3 +53,10 @@ input[type="text"]{
 .btn-primary:hover{
     background: #5723be !important;
 }
+
+.form__small-tip{
+    font-size: 12px;
+    color: #9c9c9c;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
