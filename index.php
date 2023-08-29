@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="media/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <title><?=$config['title']?> | Main</title>
 </head>
 <body>
-    test
     <div class="container">
         <form action="core/FORM_SendData.php">
-            <h2>Вариант №3</h2><br>
+            <h1>Вариант №3</h1><br>
             <label for="name_and_surname">Фамилия и Имя</label>
             <input type="text" name="name_and_surname"><br>
 
-            <h3 for="">Один или более тегов открывают блок с "Выпадающим списком"</h3>
+            <h3>Один или более тегов открывают блок с "Выпадающим списком"</h3>
             <p class="form__small-tip">Выберите те которые считаете правильными</p>
 
             <div class="form__answers-container">
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <h3 for="">Какой тег создаёт ячейку заголовка таблицы</h3>
+            <h3>Какой тег создаёт ячейку заголовка таблицы</h3>
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <h3 for="">Какой тег отвечает за ряд таблицы?</h3>
+            <h3>Какой тег отвечает за ряд таблицы?</h3>
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <h3 for="">Какая из программ позволит генерировать код для 2FA авторизации в соц. сетях</h3>
+            <h3>Какая из программ позволит генерировать код для 2FA авторизации в соц. сетях</h3>
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-            <h3 for="">В социальной сети попадается пост с распродажей того что вам хочется, что вы сделаете?</h3>
+            <h3>В социальной сети попадается пост с распродажей того что вам хочется, что вы сделаете?</h3>
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
@@ -124,7 +124,7 @@
                 </div>
             </div>
 
-            <h3 for="">Ваш файл</h3>
+            <h3>Ваш файл</h3>
             <div class="form__answers-container">
                 <div class="answers-container__answer">
                     <input type="file" name="file_answer" id="file_answer">
