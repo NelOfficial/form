@@ -13,34 +13,34 @@
 </head>
 <body>
     <div class="container">
-        <form action="core/FORM_SendData.php">
+        <form action="core/FORM_SendData.php" method="post" enctype='multipart/form-data' >
             <h1>Вариант №3</h1><br>
             <label for="name_and_surname">Фамилия и Имя</label>
-            <input type="text" name="name_and_surname"><br>
+            <input type="text" name="name_and_surname" require><br>
 
             <h3>Один или более тегов открывают блок с "Выпадающим списком"</h3>
             <p class="form__small-tip">Выберите те которые считаете правильными</p>
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="input_answer" name="input_answer"/>
-                    <label for="input_answer">&lt;input&gt;</label>
+                    <input type="checkbox" name="first_question[]" value="&lt;input&gt;"/>
+                    <label for="first_question[]">&lt;input&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="select_answer" name="select_answer"/>
-                    <label for="select_answer">&lt;select&gt;</label>
+                    <input type="checkbox" name="first_question[]" value="&lt;select&gt;"/>
+                    <label for="first_question[]">&lt;select&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="ol_answer" name="ol_answer"/>
-                    <label for="ol_answer">&lt;ol&gt;</label>
+                    <input type="checkbox" name="first_question[]" value="&lt;ol&gt;"/>
+                    <label for="first_question[]">&lt;ol&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="li_answer" name="li_answer"/>
-                    <label for="li_answer">&lt;li&gt;</label>
+                    <input type="checkbox" name="first_question[]" value="&lt;li&gt;"/>
+                    <label for="first_question[]">&lt;li&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="option_answ" name="option_answ"/>
-                    <label for="option_answ">&lt;option&gt;</label>
+                    <input type="checkbox" name="first_question[]" value="&lt;option&gt;"/>
+                    <label for="first_question[]">&lt;option&gt;</label>
                 </div>
             </div>
 
@@ -48,19 +48,19 @@
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="radio" name="second_question"/>
+                    <input type="radio" name="second_question" value="&lt;ol>&lt;/ol&gt;"/>
                     <label for="second_question">&lt;ol&gt;&lt;/ol&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="second_question"/>
+                    <input type="radio" name="second_question" value="&lt;th>&lt;/th&gt;"/>
                     <label for="second_question">&lt;th&gt;&lt;/th&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="second_question"/>
+                    <input type="radio" name="second_question" value="&lt;h1>&lt;/h1&gt;"/>
                     <label for="second_question">&lt;h1&gt;&lt;/h1&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="second_question"/>
+                    <input type="radio" name="second_question" value="&lt;hr&gt;"/>
                     <label for="second_question">&lt;hr&gt;</label>
                 </div>
             </div>
@@ -69,19 +69,19 @@
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="radio" name="third_question"/>
+                    <input type="radio" name="third_question" value="&lt;td>&lt;/td&gt;"/>
                     <label for="third_question">&lt;td&gt;&lt;/td&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="third_question"/>
+                    <input type="radio" name="third_question" value="&lt;tr>&lt;/tr&gt;"/>
                     <label for="third_question">&lt;tr&gt;&lt;/tr&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="third_question"/>
+                    <input type="radio" name="third_question" value="&lt;th>&lt;/th&gt;"/>
                     <label for="third_question">&lt;th&gt;&lt;/th&gt;</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="third_question"/>
+                    <input type="radio" name="third_question" value="&lt;tbody>&lt;/tbody&gt;"/>
                     <label for="third_question">&lt;tbody&gt;&lt;/tbody&gt;</label>
                 </div>
             </div>
@@ -90,20 +90,20 @@
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="steam_guard_answer" name="steam_guard_answer"/>
-                    <label for="steam_guard_answer">Steam Guard</label>
+                    <input type="checkbox" name="fourth_question[]" value="steam guard"/>
+                    <label for="fourth_question[]">Steam Guard</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="yandex_key" name="yandex_key"/>
-                    <label for="yandex_key">Яндекс Ключ</label>
+                    <input type="checkbox" name="fourth_question[]" value="yandex key"/>
+                    <label for="fourth_question[]">Яндекс Ключ</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="free_otp_answer" name="free_otp_answer"/>
-                    <label for="free_otp_answer">FreeOTP</label>
+                    <input type="checkbox" name="fourth_question[]" value="free otp"/>
+                    <label for="fourth_question[]">FreeOTP</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="checkbox" id="last_pass_answer" name="last_pass_answer"/>
-                    <label for="last_pass_answer">LastPass</label>
+                    <input type="checkbox" name="fourth_question[]" value="last pass"/>
+                    <label for="fourth_question[]">LastPass</label>
                 </div>
             </div>
 
@@ -111,27 +111,27 @@
 
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="radio" name="fourth_question"/>
-                    <label for="fourth_question">Сделаю заказа так как идёт таймер отсчёта и осталось 4 часа</label>
+                    <input type="radio" name="fifth_question" value="Сделаю заказ так как идёт таймер отсчёта и осталось 4 часа"/>
+                    <label for="fifth_question">Сделаю заказ так как идёт таймер отсчёта и осталось 4 часа</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="fourth_question"/>
-                    <label for="fourth_question">Сравню цены на других ресурсах</label>
+                    <input type="radio" name="fifth_question" value="Сравню цены на других ресурсах"/>
+                    <label for="fifth_question">Сравню цены на других ресурсах</label>
                 </div>
                 <div class="answers-container__answer">
-                    <input type="radio" name="fourth_question"/>
-                    <label for="fourth_question">Почитаю отзывы на других ресурсах, и сравню цены</label>
+                    <input type="radio" name="fifth_question" value="Почитаю отзывы на других ресурсах, и сравню цены"/>
+                    <label for="fifth_question">Почитаю отзывы на других ресурсах, и сравню цены</label>
                 </div>
             </div>
 
             <h3>Ваш файл</h3>
             <div class="form__answers-container">
                 <div class="answers-container__answer">
-                    <input type="file" name="file_answer" id="file_answer">
+                    <input type="file" name="file_answer" id="file_answer" required>
                 </div>
             </div>
 
-            <button type="button" class="btn btn-primary">Отправить</button>
+            <button type="submit" class="btn btn-primary">Отправить</button>
         </form>
     </div>
 </body>
